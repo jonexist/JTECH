@@ -470,12 +470,13 @@ section {
 }
 /**Design for Footer**/
 #content-3 {
+  position: relative;
   width: 100%;
   height: 20vh;
   background: #2FA4FF;
   background-position: center;
   background-size: cover;
-  position: relative;
+  overflow-y: scroll;
 }
 .contact {
   padding-top: 20px;
