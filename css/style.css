@@ -206,21 +206,22 @@ section {
 }
 .cv-cta {
   display: flex;
+  justify-content: left;
+  align-items: center;
   text-decoration: none;
   list-style: none;
   padding-top: 15px;
   color: #f5f5f5;
-  width: 100%;
 }
 .cv-cta .cta {
   font-family: 'Source Code Pro', monospace;
   text-align: center;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   border: 2px solid #2FA4FF;
-  border-radius: 20px;
-  width: 150px;
-  padding: 5px;
+  border-radius: 50px;
+  width: 50%;
+  padding: 6px;
 }
 .cv-cta .cta:hover {
   color: #20272E;
